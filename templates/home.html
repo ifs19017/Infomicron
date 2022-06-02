@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>INFOMICRON</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
+  <link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet" type="text/css">
+
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">INFOMICRON</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/form_predict">Artikel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">Tentang Kami</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron" style="background-color: #829B79;">
+    <div class="container">
+      <h1 class="display-4">Selamat Datang!</h1>
+      <p class="lead">Ayo cari informasi seputar Omicron disini!</p>
+      <p class="navbar-brand">THE MOST VALUABLE THING IS YOUR HEALTH</p>
+      <hr class="my-4">
+      <p> </p>
+      <p class="lead">
+        <a class="btn btn-primary btn-lg" href="/form_predict" role="button">Halaman Selanjutnya</a>
+      </p>
+    </div>
+  </div>
+
+
+  <div class="container-fluid pt-5 pb-5">
+    <div class="container">
+      <div class="row"> 
+
+        <div class="col-md-4">
+          <h3>Apa itu Infomicron? </h3>
+          <p>Infomicron merupakan aplikasi yang mampu memberikan infromasi terkait Omicron di Indonesia</p>
+            <p>Omicron sendiri saat ini sudah masuk kategori 'variant of Concern' (VOC) di banyak negara. 
+              Kategori VOC diartikan sebagai varian virus Corona yang diduga mampu menyebabkan peningkatan 
+              penularan serta kematian dan bahkan dapat mempengaruhi efektivitas vaksin.</p>
+        </div>
+
+        <div class="col-md-4">
+          <h3>Apa yang bisa kita ketahui?</h3>
+            <p>Kemunculan varian Omicron membawa kekhawatiran pada kinerja vaksin yang selama ini sudah disuntikkan pada masyarakat. 
+              Ada kemungkinan, nilai kemanjuran vaksin sudah tidak ada lagi ketika orang terinfeksi Omicron, atau sebaliknya. 
+              Namun, sejauh ini masih belum diketahui apakah mutasi protein spike pada Omicron ini akan mempengaruhi kinerja vaksin.
+              "Walaupun datanya masih sedang dikejar (penelitiannya). Sudah banyak disebut-sebut adalah; satu dia lebih mudah menular, 
+              dan kedua dia lebih sering infeksi ulang,"</p>         
+        </div>
+
+        <div class="col-md-4">
+          <h3>Langkah Mencegah Omicron</h3>
+          <ul>
+            <li>Menggunakan masker dengan benar</li>
+            <li>Menjaga jarak minimal 1 meter dan menjauhi kerumunan</li>
+            <li>Cuci tangan menggunakan sabun dan air mengalir</li>
+            <li>Buka jendela, untuk ventilasi yang lebih baik</li>
+            <li>Segera melakukan vaksinasi apabila dalam kondisi sehat dan telah mendapatkan jadwal.</li>
+          </ul>   
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+  <footer class="container-fluid bg-dark text-white" style="padding: 20px 0; margin-top: 150px">    
+    <div class="container my-auto">
+      
+      <div class="row mt-5">
+      <div class="description col-5">
+            <p class="fs-5"><b>INFOMICRON</b></p>
+            <p class="fs-6 w-75">Omicron adalah varian terbaru virus corona yang juga menyebabkan penyakit Covid-19. Mengutip laman Covid19.go.id, Varian ini menyebar lebih cepat dari varian COVID-19 lainnya, namun dengan gejala lebih ringan atau cenderung tidak bergejala.</p>
+          </div>
+
+          <div class="link col-3">
+            
+          </div>
+
+          <div class="contact-information col-4">
+            <p class="fs-5"><b>INSTITUT TEKNOLOGI DEL</b></p>
+            <p class="fs-6">Fakultas Informatika dan Teknik Elektro</p>
+            <p>Jl. Sisingamangaraja, Sitoluama, Laguboti, Toba Samosir
+                Sumatera Utara, Indonesia, Kode Pos: 22381</p>
+          </div>
+        </div>
+        </div>
+        
+        <div class="container">
+          <small>&copy; @IT DEL 2022  INFOMICRON - Kelompok 12 -</small>
+        </div>
+
+    </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>

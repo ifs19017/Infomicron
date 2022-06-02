@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>INFOMICRON</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha256-NuCn4IvuZXdBaFKJOAcsU2Q3ZpwbdFisd5dux4jkQ5w=" crossorigin="anonymous" />
+
+  <link href="{{ url_for('static', filename='css/style.css')}}" rel="stylesheet" type="text/css">
+
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">INFOMICRON</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/artikel">Artikel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">Tentang Kami</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid pt-5 pb-5">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Omicron Sebagai Salah Satu Varian Terbaru Covid-19</h2>
+        </div>
+        <div class="col-md-6">
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-sm btn-secondary" data-toggle="modal" data-target="#modal" style="float: right">
+            <i class="fa fa-question"></i> Ciri - Ciri Omicron
+          </button>      
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Berikut ini ciri - ciri yang terpapar Omicron:</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              
+              <ol>
+                <li>Sakit kepala</li>
+                <li>Nyeri tubuh</li>
+                <li>Nyeri tubuh</li>
+                <li>Batuk kering dan tenggorokan gatal</li>
+                <li>Letih</li>
+                <li>Hidung tersumbat</li>
+                <li>Demam</li>
+                <li>Demam</li>
+                <li>Napas pendek atau kesulitan bernapas</li>
+                <li>Diare</li>
+              </ol>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-3">
+
+      <br>
+
+      <p>Omicron adalah varian terbaru virus corona yang juga menyebabkan penyakit Covid-19. Mengutip laman Covid19.go.id, Varian ini menyebar lebih cepat dari varian COVID-19 lainnya, namun dengan gejala lebih ringan atau cenderung tidak bergejala. Varian ini sudah terdeteksi di beberapa negara sejak pertama kali ditemukan di Benua Afrika. Varian jenis ini pertama kali terdeteksi di Afrika Selatan. Varian ini disebut sebagai salah satu yang sangat cepat dalam menularkan virus.
+        Omicron memiliki tingkat penularan yang jauh lebih cepat dibandingkan varian Delta. Sejak ditemukan pertama kali pada 24 November 2021 di Afrika Selatan, kini Omicron telah terdeteksi di lebih dari 110 negara dan diperkirakan akan terus meluas. Di level nasional, pergerakan Omicron juga terus meningkat sejak pertama kali dikonfirmasi pada 16 Desember 2021. perkembangan kasus Covid-19 varian jenis ini (B.1.1.529) di Indonesia telah mencapai 5.106 kasus per Minggu, 13 Februari 2022. Varian jenis ini di Indonesia ini memiliki selisih 26 kasus dibandingkan hari sebelumnya. Secara mingguan, kasus di Indonesia ini tumbuh 35,37 persen. Dengan jumlah varian Omicron tersebut, menempatkan posisi Indonesia berada di urutan pertama di Asia Tenggara. Negara dengan kasus Omicron tertinggi di Asia Tenggara masih ditempati Thailand sebanyak 2.177 kasus (sumber : GISAID, 13 Februari 2022).</p>
+        <br>
+        <p>Pencegahan Dan Pengendalian Kasus Covid-19 Varian Omicron Seperti kita ketahui pada awal tahun 2020, COVID-19 menjadi masalah kesehatan dunia. Kasus ini diawali dengan informasi dari Badan Kesehatan Dunia/World Health Organization (WHO) pada tanggal 31 Desember 2019 yang menyebutkan adanya kasus kluster pneumonia dengan etiologi yang tidak jelas di Kota Wuhan, Provinsi Hubei, China. Kasus ini terus berkembang hingga akhirnya diketahui bahwa penyebab kluster pneumonia ini adalah novel coronavirus. Kasus ini terus berkembang hingga adanya laporan kematian dan terjadi importasi di luar China. Pada tanggal 30 Januari 2020, WHO menetapkan COVID-19 sebagai Public Health Emergency of International Concern (PHEIC)/ Kedaruratan Kesehatan Masyarakat Yang Meresahkan Dunia (KKMMD). Pada tanggal 12 Februari 2020, WHO resmi menetapkan penyakit novel coronavirus pada manusia ini dengan sebutan Coronavirus Disease (COVID-19) (Kemenkes RI. 2020).
+
+Coronavirus (CoV) adalah keluarga besar virus yang menyebabkan penyakit mulai dari gejala ringan sampai berat. Ada setidaknya dua jenis coronavirus yang diketahui menyebabkan penyakit yang dapat menimbulkan gejala berat seperti Middle East Respiratory Syndrome (MERS) dan Severe Acute Respiratory Syndrome (SARS). Coronavirus Disease (COVID-19) adalah virus jenis baru yang belum pernah diidentifikasi sebelumnya pada manusia. Virus corona adalah zoonosis (ditularkan antara hewan dan manusia). Penelitian menyebutkan bahwa SARS ditransmisikan dari kucing luwak (civet cats) ke manusia dan MERS dari unta ke manusia. Beberapa coronavirus yang dikenal beredar pada hewan namun belum terbukti menginfeksi manusia Dirjen (Kemenkes RI. 2020)</p>
+    </div>
+  </div>
+
+  <footer class="container-fluid bg-dark text-white" style="padding: 20px 0; margin-top: 150px">    
+    <div class="container my-auto">
+      
+      <div class="row mt-5">
+      <div class="description col-5">
+            <p class="fs-5"><b>INFOMICRON</b></p>
+            <p class="fs-6 w-75">Omicron adalah varian terbaru virus corona yang juga menyebabkan penyakit Covid-19. Mengutip laman Covid19.go.id, Varian ini menyebar lebih cepat dari varian COVID-19 lainnya, namun dengan gejala lebih ringan atau cenderung tidak bergejala.</p>
+          </div>
+
+          <div class="link col-3">
+           
+          </div>
+
+          <div class="contact-information col-4">
+            <p class="fs-5"><b>INSTITUT TEKNOLOGI DEL</b></p>
+            <p class="fs-6">Fakultas Informatika dan Teknik Elektro</p>
+            <p>Jl. Sisingamangaraja, Sitoluama, Laguboti, Toba Samosir
+                Sumatera Utara, Indonesia, Kode Pos: 22381</p>
+          </div>
+        </div>
+        </div>
+        
+        <div class="container">
+          <small>&copy; @IT DEL 2022  INFOMICRON - Kelompok 12 -</small>
+        </div>
+
+    </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>
